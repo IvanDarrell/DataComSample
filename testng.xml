@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test Youtube Website" enabled="true">
+  	<classes>
+  		<class name="Actions.TestActions">
+  		<parameter name="Navigation of Site" value=""></parameter>
+	  		<methods>
+	  			<include name="initiate"></include>
+	  			<include name="verifylinks"></include>
+	  			<include name="verifyloginbutton"></include>
+	  			<include name="clickalllinks"></include>
+	  			
+	  		</methods>
+  		
+  		
+  		</class>
+  	
+  	
+  	</classes>
+  </test>
+  
+  
+  
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
